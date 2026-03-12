@@ -60,7 +60,7 @@ tbody > tr:nth-of-type(even) {
     background-color: rgb(205, 217, 250); 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     table {
         visibility: hidden;
     }
@@ -80,4 +80,5 @@ tbody > tr:nth-of-type(even) {
     .oneletrajz {
         margin-left: 250px;
     }
+
 }
