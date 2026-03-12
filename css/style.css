@@ -60,7 +60,7 @@ tbody > tr:nth-of-type(even) {
     background-color: rgb(205, 217, 250); 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1250px) {
     table {
         visibility: hidden;
     }
