@@ -39,3 +39,26 @@ a {
     text-align: center;
     backdrop-filter: blur(10px);
 }
+
+.szoveg {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 420px;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: rgb(255,220,115);
+    font-size: xx-large;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#megfogalmazas {
+    color: rgb(211, 175, 68);
+}
+
+dt {
+    color: rgb(186, 144, 17)
+}
+
+dd {
+    margin-bottom: 10px;
+}
