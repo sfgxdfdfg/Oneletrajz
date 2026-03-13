@@ -1,6 +1,5 @@
 :root {
     --bgcolor: rgba(96, 83, 83, 0.51);
-    --textcolor: rgb(255,191,0);
 }
 
 body {
@@ -8,9 +7,9 @@ body {
     overflow: hidden;
 }
 
-.navlink {
+a {
     text-decoration: none;
-    color: var(--textcolor);
+    color: rgb(255,191,0);
     font-size: 30px;
 }
 
@@ -39,23 +38,4 @@ body {
     background-color: var(--bgcolor);
     text-align: center;
     backdrop-filter: blur(10px);
-}
-
-table {
-    border: 3px solid rgb(191,155,48);
-    text-align: center;
-    border-collapse: collapse;
-    width: 370px;
-    height: 50px;
-    margin-top: 20px;
-}
-
-.tablelink {
-    text-decoration: none;
-    color: var(--textcolor);
-}
-
-th, td {
-    border: 2px solid var(--textcolor);
-    color: var(--textcolor);
 }
