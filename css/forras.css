@@ -52,7 +52,7 @@ table {
 
 .tablelink {
     text-decoration: none;
-    color: var(--textcolor);
+    color: rgb(239, 234, 220);
 }
 
 th, td {
