@@ -2,6 +2,7 @@ body {
     font-size: larger;
     background-color: rgb(225, 225, 160);
     overflow: hidden;
+    background-image: url("../img/index/bg.jpg");
     /* font-family: system-ui,  Arial, sans-serif, monospace; */
 }
 
@@ -31,23 +32,26 @@ h1 {
 
 .oldalsav {
     position: fixed;
-    height: 1500px;
+    height: 100vh;
     width: 390px;
     left: 0px;
     top: 0px;
     z-index: -1;
     background-color: rgba(255, 0, 0, 0.51);
     text-align: center;
+    backdrop-filter: blur(10px);
 }
 
 .oneletrajz {
     padding: 50px;
     margin: 20px auto;
     margin-left: 800px;
+    margin-top: -50px;
     width: 560px;
     background-color: rgb(0, 0, 0, 0.7);
     border-radius: 50px;
     color: yellow;
+    backdrop-filter: blur(10px);
 }
 
 img {
