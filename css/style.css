@@ -1,23 +1,37 @@
 body {
     font-size: larger;
     background-color: rgb(225, 225, 160);
-
-    /* font-family: system-ui, Arial, sans-serif, monospace; */
+    overflow: hidden;
+    /* font-family: system-ui,  Arial, sans-serif, monospace; */
 }
 
-nav {
-    position: fixed;
-    margin-top: -10px;
-    margin-left: -13px;
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+#navlist {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 370px;
 }
 
 h1 {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .oldalsav {
     position: fixed;
-    height: 100vh;
+    height: 1500px;
     width: 390px;
     left: 0px;
     top: 0px;
@@ -27,7 +41,13 @@ h1 {
 }
 
 .oneletrajz {
-    margin-left: 420px;
+    padding: 50px;
+    margin: 20px auto;
+    margin-left: 800px;
+    width: 560px;
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 50px;
+    color: yellow;
 }
 
 img {
@@ -60,7 +80,7 @@ tbody > tr:nth-of-type(even) {
     background-color: rgb(205, 217, 250); 
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 770px) {
     table {
         visibility: hidden;
     }
@@ -69,8 +89,8 @@ tbody > tr:nth-of-type(even) {
         text-align: left;
     }
 
-    #szoftvermernok {
-        text-align: left;
+    .navbar {
+        width: 235px;
     }
 
     .oldalsav {
